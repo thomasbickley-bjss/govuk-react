@@ -4,13 +4,13 @@
  * - https://github.com/alphagov/govuk-frontend/blob/main/src/govuk/components/radios/_radios.scss
  * - https://github.com/alphagov/govuk_elements/blob/master/assets/sass/elements/_forms.scss
  */
-import type { WithWhiteSpaceProps, ComponentSizeVariant } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps, ComponentSizeVariant } from '@govuk-react-bjss/lib';
 
 import * as React from 'react';
 import styled from 'styled-components';
 import { FOCUS_COLOUR } from 'govuk-colours';
-import { spacing, typography } from '@govuk-react/lib';
-import HintText from '@govuk-react/hint-text';
+import { spacing, typography } from '@govuk-react-bjss/lib';
+import HintText from '@govuk-react-bjss/hint-text';
 
 import {
   BORDER_WIDTH_FORM_ELEMENT,
@@ -19,7 +19,7 @@ import {
   FONT_SIZE,
   MEDIA_QUERIES,
   SPACING_POINTS,
-} from '@govuk-react/constants';
+} from '@govuk-react-bjss/constants';
 
 const radioSize = SPACING_POINTS[7];
 const radioSizeSmall = 24;

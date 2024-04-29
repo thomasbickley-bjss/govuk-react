@@ -2,7 +2,7 @@ import type { Story } from '@storybook/react';
 
 import * as React from 'react';
 
-import { UnorderedList, Link } from 'govuk-react';
+import { UnorderedList, Link } from '@govuk-react-bjss/govuk-react';
 
 import { ListItem } from '.';
 

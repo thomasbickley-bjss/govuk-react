@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as GovUK from 'govuk-react';
+import * as GovUK from '@govuk-react-bjss/govuk-react';
 import { MemoryRouter as Router, Routes, Route } from 'react-router';
 import { Link } from 'react-router-dom';
 

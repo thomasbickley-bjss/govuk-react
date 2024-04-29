@@ -3,10 +3,10 @@
  *
  * - https://github.com/alphagov/govuk-frontend/blob/main/src/govuk/core/_lists.scss
  */
-import type { WithWhiteSpaceProps } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
 
 import * as React from 'react';
-import OrderedList from '@govuk-react/ordered-list';
+import OrderedList from '@govuk-react-bjss/ordered-list';
 
 export interface UnorderedListProps extends React.HTMLAttributes<HTMLUListElement>, WithWhiteSpaceProps {
   /** One or more ListItem components */

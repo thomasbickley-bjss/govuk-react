@@ -1,8 +1,8 @@
 // tracking https://github.com/alphagov/govuk-frontend/blob/main/src/govuk/objects/_width-container.scss
 import styled from 'styled-components';
-import { spacing } from '@govuk-react/lib';
+import { spacing } from '@govuk-react-bjss/lib';
 
-import { GUTTER, GUTTER_HALF, MEDIA_QUERIES, SITE_WIDTH } from '@govuk-react/constants';
+import { GUTTER, GUTTER_HALF, MEDIA_QUERIES, SITE_WIDTH } from '@govuk-react-bjss/constants';
 
 const WidthContainer = styled('div')(
   {

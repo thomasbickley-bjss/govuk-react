@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MEDIA_QUERIES, SPACING } from '@govuk-react/constants';
+import { MEDIA_QUERIES, SPACING } from '@govuk-react-bjss/constants';
 
 const RightHandSide = styled('div')({
   display: 'flex',

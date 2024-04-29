@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import * as GovUK from 'govuk-react';
+import * as GovUK from '@govuk-react-bjss/govuk-react';
 import { Link } from 'react-router-dom';
 
 const Results: React.FC<ResultsProps> = ({

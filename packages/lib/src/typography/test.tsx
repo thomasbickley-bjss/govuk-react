@@ -5,7 +5,7 @@ import {
   FONT_WEIGHTS,
   MEDIA_QUERIES,
   TYPOGRAPHY_SCALE,
-} from '@govuk-react/constants';
+} from '@govuk-react-bjss/constants';
 import * as typography from '.';
 
 describe('typography lib', () => {

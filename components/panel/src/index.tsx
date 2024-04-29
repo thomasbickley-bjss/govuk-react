@@ -6,8 +6,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { WHITE } from 'govuk-colours';
-import { spacing, typography } from '@govuk-react/lib';
-import { BORDER_WIDTH, MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
+import { BORDER_WIDTH, MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react-bjss/constants';
 import { stripUnit } from 'polished';
 
 const RAW_BORDER_WIDTH = Number(stripUnit(BORDER_WIDTH));

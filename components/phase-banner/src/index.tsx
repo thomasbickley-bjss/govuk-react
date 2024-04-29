@@ -3,14 +3,14 @@
  *
  * - https://github.com/alphagov/govuk-frontend/tree/main/src/govuk/components/phase-banner
  */
-import type { WithWhiteSpaceProps } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
 
 import * as React from 'react';
 import styled from 'styled-components';
 import { BORDER_COLOUR } from 'govuk-colours';
-import { SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
-import Tag from '@govuk-react/tag';
+import { SPACING_POINTS } from '@govuk-react-bjss/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
+import Tag from '@govuk-react-bjss/tag';
 
 const StyledBanner = styled('div')(
   {

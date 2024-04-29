@@ -3,7 +3,7 @@ import type { Meta, Story } from '@storybook/react';
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { MEDIA_QUERIES, GUTTER } from '@govuk-react/constants';
+import { MEDIA_QUERIES, GUTTER } from '@govuk-react-bjss/constants';
 
 import crest from './govuk-crest.png';
 

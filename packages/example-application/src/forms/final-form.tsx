@@ -2,7 +2,7 @@
 import type { FieldProps as FFFieldProps, FieldRenderProps } from 'react-final-form';
 
 import React, { useState, useCallback } from 'react';
-import * as GovUK from 'govuk-react';
+import * as GovUK from '@govuk-react-bjss/govuk-react';
 import { Link } from 'react-router-dom';
 import { Form, Field as FFField } from 'react-final-form';
 

@@ -1,16 +1,16 @@
 {
-  "name": "@govuk-react/error-summary",
+  "name": "@govuk-react-bjss/error-summary",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/constants": "^0.10.6",
-    "@govuk-react/heading": "^0.10.6",
-    "@govuk-react/input-field": "^0.10.6",
-    "@govuk-react/lib": "^0.10.6",
-    "@govuk-react/link": "^0.10.6",
-    "@govuk-react/list-item": "^0.10.6",
-    "@govuk-react/paragraph": "^0.10.6",
-    "@govuk-react/text-area": "^0.10.6",
-    "@govuk-react/unordered-list": "^0.10.6",
+    "@govuk-react-bjss/constants": "^0.10.6",
+    "@govuk-react-bjss/heading": "^0.10.6",
+    "@govuk-react-bjss/input-field": "^0.10.6",
+    "@govuk-react-bjss/lib": "^0.10.6",
+    "@govuk-react-bjss/link": "^0.10.6",
+    "@govuk-react-bjss/list-item": "^0.10.6",
+    "@govuk-react-bjss/paragraph": "^0.10.6",
+    "@govuk-react-bjss/text-area": "^0.10.6",
+    "@govuk-react-bjss/unordered-list": "^0.10.6",
     "govuk-colours": "^1.1.0"
   },
   "peerDependencies": {
@@ -21,8 +21,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-error-summary.cjs.js",
-  "module": "dist/govuk-react-error-summary.esm.js",
+  "main": "dist/govuk-react-bjss-error-summary.cjs.js",
+  "module": "dist/govuk-react-bjss-error-summary.esm.js",
   "source": "src/index.tsx",
   "author": "Tarandeep Singh Chauhan",
   "license": "MIT",

@@ -1,9 +1,9 @@
 {
-  "name": "@govuk-react/skip-link",
+  "name": "@govuk-react-bjss/skip-link",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/constants": "^0.10.6",
-    "@govuk-react/lib": "^0.10.6",
+    "@govuk-react-bjss/constants": "^0.10.6",
+    "@govuk-react-bjss/lib": "^0.10.6",
     "govuk-colours": "^1.1.0"
   },
   "peerDependencies": {
@@ -14,8 +14,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-skip-link.cjs.js",
-  "module": "dist/govuk-react-skip-link.esm.js",
+  "main": "dist/govuk-react-bjss-skip-link.cjs.js",
+  "module": "dist/govuk-react-bjss-skip-link.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

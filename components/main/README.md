@@ -3,7 +3,7 @@ Main
 
 ### Import
 ```js
-  import Main from '@govuk-react/main';
+  import Main from '@govuk-react-bjss/main';
 ```
 <!-- STORY -->
 

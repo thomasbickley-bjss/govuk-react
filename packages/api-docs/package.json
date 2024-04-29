@@ -1,14 +1,14 @@
 {
-  "name": "@govuk-react/api-docs",
+  "name": "@govuk-react-bjss/api-docs",
   "version": "0.10.6",
   "dependencies": {
     "@babel/node": "7.22.19",
     "@babel/runtime": "7.23.1",
+    "@govuk-react-bjss/govuk-react": "^0.10.6",
     "chalk": "^4.1.1",
     "commander": "^11.1.0",
     "glob": "^7.1.2",
     "glob-promise": "^6.0.5",
-    "govuk-react": "^0.10.6",
     "lodash": "^4.17.5",
     "react": "^18.2.0",
     "react-docgen-typescript": "^2.1.0",
@@ -30,8 +30,8 @@
     "start": "babel-node src",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-api-docs.cjs.js",
-  "module": "dist/govuk-react-api-docs.esm.js",
+  "main": "dist/govuk-react-bjss-api-docs.cjs.js",
+  "module": "dist/govuk-react-bjss-api-docs.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

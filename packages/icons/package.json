@@ -1,8 +1,8 @@
 {
-  "name": "@govuk-react/icons",
+  "name": "@govuk-react-bjss/icons",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/constants": "^0.10.6",
+    "@govuk-react-bjss/constants": "^0.10.6",
     "govuk-colours": "^1.1.0"
   },
   "peerDependencies": {
@@ -12,8 +12,8 @@
   "scripts": {
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-icons.cjs.js",
-  "module": "dist/govuk-react-icons.esm.js",
+  "main": "dist/govuk-react-bjss-icons.cjs.js",
+  "module": "dist/govuk-react-bjss-icons.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

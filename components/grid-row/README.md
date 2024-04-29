@@ -3,7 +3,7 @@ GridRow
 
 ### Import
 ```js
-  import GridRow from '@govuk-react/grid-row';
+  import GridRow from '@govuk-react-bjss/grid-row';
 ```
 <!-- STORY -->
 

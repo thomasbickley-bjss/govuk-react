@@ -3,9 +3,9 @@ import type { Story } from '@storybook/react';
 import * as React from 'react';
 import styled from 'styled-components';
 
-import GridRow from '@govuk-react/grid-row';
-import { H2 } from '@govuk-react/heading';
-import Paragraph from '@govuk-react/paragraph';
+import GridRow from '@govuk-react-bjss/grid-row';
+import { H2 } from '@govuk-react-bjss/heading';
+import Paragraph from '@govuk-react-bjss/paragraph';
 
 import { GridCol } from '.';
 

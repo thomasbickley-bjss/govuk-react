@@ -1,10 +1,10 @@
 {
-  "name": "@govuk-react/radio",
+  "name": "@govuk-react-bjss/radio",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/constants": "^0.10.6",
-    "@govuk-react/hint-text": "^0.10.6",
-    "@govuk-react/lib": "^0.10.6",
+    "@govuk-react-bjss/constants": "^0.10.6",
+    "@govuk-react-bjss/hint-text": "^0.10.6",
+    "@govuk-react-bjss/lib": "^0.10.6",
     "govuk-colours": "^1.1.0"
   },
   "peerDependencies": {
@@ -15,8 +15,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-radio.cjs.js",
-  "module": "dist/govuk-react-radio.esm.js",
+  "main": "dist/govuk-react-bjss-radio.cjs.js",
+  "module": "dist/govuk-react-bjss-radio.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

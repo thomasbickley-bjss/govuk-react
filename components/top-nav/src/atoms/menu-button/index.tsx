@@ -1,6 +1,6 @@
 import React, { MouseEventHandler } from 'react';
 import styled from 'styled-components';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
+import { MEDIA_QUERIES } from '@govuk-react-bjss/constants';
 
 // Label to be linked to checkbox in parent component
 // in order to provide toggle function of mobile menu

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { MEDIA_QUERIES } from '@govuk-react-bjss/constants';
+import { spacing } from '@govuk-react-bjss/lib';
 
 import Link from '../link';
 

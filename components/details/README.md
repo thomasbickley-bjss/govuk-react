@@ -3,7 +3,7 @@ Details
 
 ### Import
 ```js
-  import Details from '@govuk-react/details';
+  import Details from '@govuk-react-bjss/details';
 ```
 <!-- STORY -->
 

@@ -3,7 +3,7 @@ InputField
 
 ### Import
 ```js
-  import InputField from '@govuk-react/input-field';
+  import InputField from '@govuk-react-bjss/input-field';
 ```
 <!-- STORY -->
 

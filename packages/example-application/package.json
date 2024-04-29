@@ -1,11 +1,11 @@
 {
-  "name": "@govuk-react/example-application",
+  "name": "@govuk-react-bjss/example-application",
   "version": "0.10.6",
   "dependencies": {
+    "@govuk-react-bjss/govuk-react": "^0.10.6",
     "@rjsf/core": "^3.1.0",
     "final-form": "^4.20.10",
     "formik": "^2.4.5",
-    "govuk-react": "^0.10.6",
     "react-final-form": "^6.5.9",
     "react-hook-form": "^7.51.1",
     "react-router": "^6.3.0",
@@ -22,8 +22,8 @@
     "cypress": "cypress open --component",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-example-application.cjs.js",
-  "module": "dist/govuk-react-example-application.esm.js",
+  "main": "dist/govuk-react-bjss-example-application.cjs.js",
+  "module": "dist/govuk-react-bjss-example-application.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

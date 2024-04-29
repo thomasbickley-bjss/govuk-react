@@ -78,9 +78,9 @@ module.exports = {
       },
       settings: {
         'import/core-modules': [
-          'govuk-react',
+          '@govuk-react-bjss/govuk-react',
           ...Object.keys(devDependencies),
-          ...Object.keys(gukd).filter((dep) => dep.startsWith('@govuk-react/')),
+          ...Object.keys(gukd).filter((dep) => dep.startsWith('@govuk-react-bjss/')),
         ],
       },
     },

@@ -1,9 +1,9 @@
 {
-  "name": "@govuk-react/loading-box",
+  "name": "@govuk-react-bjss/loading-box",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/constants": "^0.10.6",
-    "@govuk-react/icons": "^0.10.6",
+    "@govuk-react-bjss/constants": "^0.10.6",
+    "@govuk-react-bjss/icons": "^0.10.6",
     "govuk-colours": "^1.1.0",
     "hex-rgb": "^4.0.0",
     "react-transition-group": "^4.4.5"
@@ -17,8 +17,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-loading-box.cjs.js",
-  "module": "dist/govuk-react-loading-box.esm.js",
+  "main": "dist/govuk-react-bjss-loading-box.cjs.js",
+  "module": "dist/govuk-react-bjss-loading-box.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

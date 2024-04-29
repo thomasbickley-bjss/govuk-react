@@ -6,8 +6,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { SECONDARY_TEXT_COLOUR } from 'govuk-colours';
-import { SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { SPACING_POINTS } from '@govuk-react-bjss/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 
 import Link from './atoms/link';
 

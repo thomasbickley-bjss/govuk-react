@@ -30,10 +30,10 @@ const packageJson = () => {
   // also I'm not sure we need the storybook addons for all components,
   // can be added manually per component perhaps.
   const contents = `{
-  "name": "@govuk-react/${componentFolderName}",
+  "name": "@govuk-react-bjss/${componentFolderName}",
   "version": "${version}",
   "dependencies": {
-    "@govuk-react/lib": "^${version}"
+    "@govuk-react-bjss/lib": "^${version}"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -86,7 +86,7 @@ const indexScript = () => {
   const filename = 'index.js';
   const contents = `import React from 'react';
 import styled from 'styled-components';
-import { spacing, typography } from '@govuk-react/lib';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 
 const ${componentName} = styled('div')(
   typography.font({ size: 16 }),

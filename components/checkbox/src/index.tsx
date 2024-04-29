@@ -6,7 +6,7 @@
 
 import * as React from 'react';
 import styled from 'styled-components';
-import HintText from '@govuk-react/hint-text';
+import HintText from '@govuk-react-bjss/hint-text';
 import { FOCUS_COLOUR } from 'govuk-colours';
 import {
   BORDER_WIDTH,
@@ -15,9 +15,9 @@ import {
   SPACING_POINTS,
   MEDIA_QUERIES,
   FONT_SIZE,
-} from '@govuk-react/constants';
-import { spacing, typography, WithWhiteSpaceProps } from '@govuk-react/lib';
-import type { ComponentSizeVariant } from '@govuk-react/lib';
+} from '@govuk-react-bjss/constants';
+import { spacing, typography, WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
+import type { ComponentSizeVariant } from '@govuk-react-bjss/lib';
 
 const checkboxSize = SPACING_POINTS[7];
 const checkboxSizeSmall = SPACING_POINTS[5];

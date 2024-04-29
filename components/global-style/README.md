@@ -3,7 +3,7 @@ GlobalStyle
 
 ### Import
 ```js
-  import GlobalStyle from '@govuk-react/global-style';
+  import GlobalStyle from '@govuk-react-bjss/global-style';
 ```
 <!-- STORY -->
 

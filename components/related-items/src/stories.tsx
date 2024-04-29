@@ -2,10 +2,10 @@ import type { Story } from '@storybook/react';
 
 import * as React from 'react';
 
-import { H3 } from '@govuk-react/heading';
-import UnorderedList from '@govuk-react/unordered-list';
-import Link from '@govuk-react/link';
-import ListItem from '@govuk-react/list-item';
+import { H3 } from '@govuk-react-bjss/heading';
+import UnorderedList from '@govuk-react-bjss/unordered-list';
+import Link from '@govuk-react-bjss/link';
+import ListItem from '@govuk-react-bjss/list-item';
 
 import { RelatedItems } from '.';
 

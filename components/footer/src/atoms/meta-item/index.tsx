@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { GUTTER_HALF, MEDIA_QUERIES } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { GUTTER_HALF, MEDIA_QUERIES } from '@govuk-react-bjss/constants';
+import { spacing } from '@govuk-react-bjss/lib';
 
 const MetaItem = styled('div')<MetaItemProps>(
   {

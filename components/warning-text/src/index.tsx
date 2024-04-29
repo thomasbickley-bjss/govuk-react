@@ -8,10 +8,10 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { IconImportant } from '@govuk-react/icons';
-import { spacing, typography } from '@govuk-react/lib';
+import { IconImportant } from '@govuk-react-bjss/icons';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 
-import { SPACING_POINTS } from '@govuk-react/constants';
+import { SPACING_POINTS } from '@govuk-react-bjss/constants';
 
 const StyledWarningText = styled('div')(
   {

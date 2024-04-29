@@ -3,7 +3,7 @@ Table
 
 ### Import
 ```js
-  import Table from '@govuk-react/table';
+  import Table from '@govuk-react-bjss/table';
 ```
 <!-- STORY -->
 

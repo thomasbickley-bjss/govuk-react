@@ -8,11 +8,11 @@ if [ "$1" != "major" ] && [ "$1" != "minor" ] && [ "$1" != "patch" ]; then
     exit 1
 fi
 
-git remote get-url origin | grep -q 'govuk-react/govuk-react' || exit 1 # ensure origin doesn't point to a fork
+git remote get-url origin | grep -q 'thomasbickley-bjss/govuk-react' || exit 1 # ensure origin doesn't point to a fork
 git checkout -b release/next origin/main                                # make a new branch for next version from main
 git fetch --tags                                                        # lerna uses tags to determine what has changed, we need to make sure we have all tags locally
 yarn version --deferred $1
-yarn workspaces foreach --all --exclude @govuk-react/monorepo version --deferred $1
+yarn workspaces foreach --all --exclude @govuk-react-bjss/monorepo version --deferred $1
 yarn version apply --all
 VERSION=$(node -e 'console.log(require("./packages/govuk-react/package.json").version)') # get new version number
 echo "Bumped version to $VERSION"

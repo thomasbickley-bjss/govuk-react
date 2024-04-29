@@ -9,11 +9,11 @@ import styled from 'styled-components';
 
 import { TEXT_COLOUR, ERROR_COLOUR, FOCUS_COLOUR } from 'govuk-colours';
 
-import { H2 } from '@govuk-react/heading';
-import Paragraph from '@govuk-react/paragraph';
-import UnorderedList from '@govuk-react/unordered-list';
-import Link from '@govuk-react/link';
-import ListItem from '@govuk-react/list-item';
+import { H2 } from '@govuk-react-bjss/heading';
+import Paragraph from '@govuk-react-bjss/paragraph';
+import UnorderedList from '@govuk-react-bjss/unordered-list';
+import Link from '@govuk-react-bjss/link';
+import ListItem from '@govuk-react-bjss/list-item';
 
 import {
   NTA_LIGHT,
@@ -25,9 +25,9 @@ import {
   SPACING,
   MEDIA_QUERIES,
   RESPONSIVE_4,
-} from '@govuk-react/constants';
+} from '@govuk-react-bjss/constants';
 
-import { spacing } from '@govuk-react/lib';
+import { spacing } from '@govuk-react-bjss/lib';
 
 const StyledErrorText = styled(Link)({
   fontFamily: NTA_LIGHT,

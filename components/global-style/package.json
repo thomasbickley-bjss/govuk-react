@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/global-style",
+  "name": "@govuk-react-bjss/global-style",
   "version": "0.10.6",
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -9,8 +9,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-global-style.cjs.js",
-  "module": "dist/govuk-react-global-style.esm.js",
+  "main": "dist/govuk-react-bjss-global-style.cjs.js",
+  "module": "dist/govuk-react-bjss-global-style.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",
