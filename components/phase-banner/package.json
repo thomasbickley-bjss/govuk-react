@@ -1,10 +1,10 @@
 {
   "name": "@govuk-react-bjss/phase-banner",
-  "version": "0.10.6",
+  "version": "0.10.7",
   "dependencies": {
-    "@govuk-react-bjss/constants": "^0.10.6",
-    "@govuk-react-bjss/lib": "^0.10.6",
-    "@govuk-react-bjss/tag": "^0.10.6",
+    "@govuk-react-bjss/constants": "^0.10.7",
+    "@govuk-react-bjss/lib": "^0.10.7",
+    "@govuk-react-bjss/tag": "^0.10.7",
     "govuk-colours": "^1.1.0"
   },
   "peerDependencies": {
