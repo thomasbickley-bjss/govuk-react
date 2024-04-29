@@ -1,11 +1,11 @@
 {
   "name": "@govuk-react-bjss/page",
-  "version": "0.10.6",
+  "version": "0.10.7",
   "dependencies": {
-    "@govuk-react-bjss/constants": "^0.10.6",
-    "@govuk-react-bjss/lib": "^0.10.6",
-    "@govuk-react-bjss/skip-link": "^0.10.6",
-    "@govuk-react-bjss/top-nav": "^0.10.6"
+    "@govuk-react-bjss/constants": "^0.10.7",
+    "@govuk-react-bjss/lib": "^0.10.7",
+    "@govuk-react-bjss/skip-link": "^0.10.7",
+    "@govuk-react-bjss/top-nav": "^0.10.7"
   },
   "peerDependencies": {
     "react": ">=16.8.0",

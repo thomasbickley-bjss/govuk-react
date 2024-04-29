@@ -1,8 +1,8 @@
 {
   "name": "@govuk-react-bjss/link",
-  "version": "0.10.6",
+  "version": "0.10.7",
   "dependencies": {
-    "@govuk-react-bjss/lib": "^0.10.6",
+    "@govuk-react-bjss/lib": "^0.10.7",
     "govuk-colours": "^1.1.0"
   },
   "peerDependencies": {

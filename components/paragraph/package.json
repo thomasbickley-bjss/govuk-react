@@ -1,9 +1,9 @@
 {
   "name": "@govuk-react-bjss/paragraph",
-  "version": "0.10.6",
+  "version": "0.10.7",
   "dependencies": {
-    "@govuk-react-bjss/lib": "^0.10.6",
-    "@govuk-react-bjss/link": "^0.10.6",
+    "@govuk-react-bjss/lib": "^0.10.7",
+    "@govuk-react-bjss/link": "^0.10.7",
     "react-markdown": "^5.0.3"
   },
   "peerDependencies": {

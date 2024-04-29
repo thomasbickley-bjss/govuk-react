@@ -1,8 +1,8 @@
 {
   "name": "@govuk-react-bjss/example-application",
-  "version": "0.10.6",
+  "version": "0.10.7",
   "dependencies": {
-    "@govuk-react-bjss/govuk-react": "^0.10.6",
+    "@govuk-react-bjss/govuk-react": "^0.10.7",
     "@rjsf/core": "^3.1.0",
     "final-form": "^4.20.10",
     "formik": "^2.4.5",
