@@ -6,7 +6,7 @@
 
 import * as React from 'react';
 import styled from 'styled-components';
-import { spacing, typography } from '@govuk-react/lib';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 
 import List from './atoms/list';
 import Panel from './atoms/panel';
@@ -37,7 +37,7 @@ export interface TabsType extends React.FC<TabsProps> {
   Panel: typeof Panel;
   Title: typeof Title;
 }
-export interface TabsProps {
+export interface TabsProps extends React.HTMLAttributes<HTMLDivElement> {
   /** child components that will appear in the Tabs section */
   children: React.ReactNode;
 }

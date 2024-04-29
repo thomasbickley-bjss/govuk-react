@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/constants",
+  "name": "@govuk-react-bjss/constants",
   "version": "0.10.6",
   "dependencies": {
     "govuk-colours": "^1.1.0"
@@ -7,8 +7,8 @@
   "scripts": {
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-constants.cjs.js",
-  "module": "dist/govuk-react-constants.esm.js",
+  "main": "dist/govuk-react-bjss-constants.cjs.js",
+  "module": "dist/govuk-react-bjss-constants.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

@@ -2,7 +2,7 @@
  * - https://github.com/alphagov/govuk-frontend/tree/main/src/govuk/components/
  */
 
-import type { WithWhiteSpaceProps } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
 
 import * as React from 'react';
 import styled from 'styled-components';
@@ -13,8 +13,8 @@ import {
   BORDER_WIDTH_FORM_ELEMENT_ERROR,
   FOCUSABLE,
   SPACING_POINTS,
-} from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+} from '@govuk-react-bjss/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 
 /**
  * Use the text input component when you need to let users enter text that’s no longer than a single line, such as their name or phone number.

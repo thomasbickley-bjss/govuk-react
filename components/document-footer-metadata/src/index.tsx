@@ -8,9 +8,9 @@
 
 import * as React from 'react';
 import styled from 'styled-components';
-import UnorderedList from '@govuk-react/unordered-list';
-import { NTA_LIGHT } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import UnorderedList from '@govuk-react-bjss/unordered-list';
+import { NTA_LIGHT } from '@govuk-react-bjss/constants';
+import { spacing } from '@govuk-react-bjss/lib';
 
 const StyledContainer = styled('div')({ fontFamily: NTA_LIGHT }, spacing.withWhiteSpace());
 
@@ -102,7 +102,7 @@ DocumentFooterMetadata.defaultProps = {
 
 DocumentFooterMetadata.displayName = 'DocumentFooterMetadata';
 
-export interface DocumentFooterMetadataProps {
+export interface DocumentFooterMetadataProps extends React.HTMLAttributes<HTMLDivElement> {
   /**
    * Array of JSX nodes to render underneath the `from:` title
    */

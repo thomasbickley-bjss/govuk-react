@@ -2,7 +2,7 @@
 import type { JSONSchema7 } from 'json-schema';
 
 import React, { useCallback, useState } from 'react';
-import * as GovUK from 'govuk-react';
+import * as GovUK from '@govuk-react-bjss/govuk-react';
 import { Link } from 'react-router-dom';
 
 import Results from './components/results';

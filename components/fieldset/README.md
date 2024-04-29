@@ -3,7 +3,7 @@ Fieldset
 
 ### Import
 ```js
-  import Fieldset from '@govuk-react/fieldset';
+  import Fieldset from '@govuk-react-bjss/fieldset';
 ```
 <!-- STORY -->
 

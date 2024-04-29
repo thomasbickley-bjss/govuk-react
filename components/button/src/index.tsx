@@ -6,12 +6,12 @@
 
 import type { StyledComponentProps } from 'styled-components';
 
-import type { WithWhiteSpaceProps } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
 
 import styled from 'styled-components';
 import * as React from 'react';
-import { BORDER_WIDTH_FORM_ELEMENT, FOCUSABLE, MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { BORDER_WIDTH_FORM_ELEMENT, FOCUSABLE, MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react-bjss/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 import { BUTTON_COLOUR, BUTTON_COLOUR_DARKEN_15, WHITE } from 'govuk-colours';
 import { darken, stripUnit } from 'polished';
 
@@ -178,7 +178,7 @@ interface StyledButtonOwnProps extends WithWhiteSpaceProps {
   isStart?: boolean;
 }
 
-interface ButtonOwnProps extends WithWhiteSpaceProps {
+interface ButtonOwnProps extends React.HTMLAttributes<HTMLButtonElement>, WithWhiteSpaceProps {
   /**
    * Button text
    */

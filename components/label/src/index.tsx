@@ -1,10 +1,11 @@
 // https://github.com/alphagov/govuk-frontend/tree/main/src/govuk/components/
-import type { WithWhiteSpaceProps } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
 
 import styled from 'styled-components';
 import { ERROR_COLOUR } from 'govuk-colours';
-import { SPACING } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { SPACING } from '@govuk-react-bjss/constants';
+import { spacing } from '@govuk-react-bjss/lib';
+import * as React from 'react';
 
 // Our approach to labels/fields differs to govuk-frontend.
 // We have no `form-group` - this, to an extent, replaces it.
@@ -34,7 +35,7 @@ export const Label = styled('label')<LabelProps>(
   spacing.withWhiteSpace({ marginBottom: 0 })
 );
 
-export interface LabelProps extends WithWhiteSpaceProps {
+export interface LabelProps extends Omit<React.HTMLAttributes<HTMLLabelElement>, 'onChange'>, WithWhiteSpaceProps {
   /**
    * Apply error state styling to the component
    */

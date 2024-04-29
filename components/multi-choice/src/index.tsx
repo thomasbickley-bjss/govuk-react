@@ -9,17 +9,17 @@
 
 // Only one is valid, but at least one must be selected.
 // Therefore validation around the set of radios is required.
-import type { WithWhiteSpaceProps } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
 
 import * as React from 'react';
 import styled from 'styled-components';
 import { ERROR_COLOUR } from 'govuk-colours';
-import LabelText from '@govuk-react/label-text';
-import ErrorText from '@govuk-react/error-text';
-import HintText from '@govuk-react/hint-text';
+import LabelText from '@govuk-react-bjss/label-text';
+import ErrorText from '@govuk-react-bjss/error-text';
+import HintText from '@govuk-react-bjss/hint-text';
 
-import { BORDER_WIDTH_MOBILE, SPACING } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { BORDER_WIDTH_MOBILE, SPACING } from '@govuk-react-bjss/constants';
+import { spacing } from '@govuk-react-bjss/lib';
 
 const StyledFieldset = styled('div')<{ error: boolean } & WithWhiteSpaceProps>(
   {
@@ -70,7 +70,7 @@ MultiChoice.defaultProps = {
 
 MultiChoice.displayName = 'MultiChoice';
 
-export interface MultiChoiceProps extends WithWhiteSpaceProps {
+export interface MultiChoiceProps extends React.HTMLAttributes<HTMLDivElement>, WithWhiteSpaceProps {
   meta?: {
     error?: string | string[];
     touched?: boolean;

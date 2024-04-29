@@ -3,7 +3,7 @@ LeadParagraph
 
 ### Import
 ```js
-  import LeadParagraph from '@govuk-react/lead-paragraph';
+  import LeadParagraph from '@govuk-react-bjss/lead-paragraph';
 ```
 <!-- STORY -->
 

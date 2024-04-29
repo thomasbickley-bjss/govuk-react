@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import React, { useState, useCallback } from 'react';
-import * as GovUK from 'govuk-react';
+import * as GovUK from '@govuk-react-bjss/govuk-react';
 import { Link } from 'react-router-dom';
 
 import { useForm } from 'react-hook-form';

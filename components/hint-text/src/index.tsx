@@ -6,8 +6,8 @@
 
 import styled from 'styled-components';
 import { SECONDARY_TEXT_COLOUR } from 'govuk-colours';
-import { SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { SPACING_POINTS } from '@govuk-react-bjss/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 
 /**
  * Use hint text alongside a form input for help that’s relevant to the majority of users, like how their information will be used, or where to find it.

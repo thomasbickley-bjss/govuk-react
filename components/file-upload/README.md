@@ -3,7 +3,7 @@ FileUpload
 
 ### Import
 ```js
-  import FileUpload from '@govuk-react/file-upload';
+  import FileUpload from '@govuk-react-bjss/file-upload';
 ```
 <!-- STORY -->
 

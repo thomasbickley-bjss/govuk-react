@@ -1,14 +1,14 @@
 {
-  "name": "@govuk-react/date-field",
+  "name": "@govuk-react-bjss/date-field",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/constants": "^0.10.6",
-    "@govuk-react/error-text": "^0.10.6",
-    "@govuk-react/hint-text": "^0.10.6",
-    "@govuk-react/input": "^0.10.6",
-    "@govuk-react/label": "^0.10.6",
-    "@govuk-react/label-text": "^0.10.6",
-    "@govuk-react/lib": "^0.10.6",
+    "@govuk-react-bjss/constants": "^0.10.6",
+    "@govuk-react-bjss/error-text": "^0.10.6",
+    "@govuk-react-bjss/hint-text": "^0.10.6",
+    "@govuk-react-bjss/input": "^0.10.6",
+    "@govuk-react-bjss/label": "^0.10.6",
+    "@govuk-react-bjss/label-text": "^0.10.6",
+    "@govuk-react-bjss/lib": "^0.10.6",
     "govuk-colours": "^1.1.0",
     "multi-input-input": "0.0.3"
   },
@@ -20,8 +20,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-date-field.cjs.js",
-  "module": "dist/govuk-react-date-field.esm.js",
+  "main": "dist/govuk-react-bjss-date-field.cjs.js",
+  "module": "dist/govuk-react-bjss-date-field.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

@@ -1,15 +1,15 @@
 {
-  "name": "@govuk-react/lib",
+  "name": "@govuk-react-bjss/lib",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/constants": "^0.10.6",
+    "@govuk-react-bjss/constants": "^0.10.6",
     "govuk-colours": "^1.1.0"
   },
   "scripts": {
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-lib.cjs.js",
-  "module": "dist/govuk-react-lib.esm.js",
+  "main": "dist/govuk-react-bjss-lib.cjs.js",
+  "module": "dist/govuk-react-bjss-lib.esm.js",
   "source": "src/index.tsx",
   "author": "Steve Sims",
   "license": "MIT",

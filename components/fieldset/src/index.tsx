@@ -5,11 +5,11 @@
  * - https://github.com/alphagov/govuk-frontend/tree/main/src/govuk/components/fieldset
  * - https://design-system.service.gov.uk/get-started/labels-legends-headings/
  */
-import type { WithWhiteSpaceProps } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
 
 import * as React from 'react';
 import styled from 'styled-components';
-import { spacing } from '@govuk-react/lib';
+import { spacing } from '@govuk-react-bjss/lib';
 
 import Legend from './atoms/legend';
 
@@ -39,7 +39,7 @@ export interface FieldsetType extends React.FC<FieldsetProps> {
   Legend: typeof Legend;
 }
 
-interface FieldsetProps extends WithWhiteSpaceProps {
+interface FieldsetProps extends React.HTMLAttributes<HTMLFieldSetElement>, WithWhiteSpaceProps {
   children: React.ReactNode;
 }
 

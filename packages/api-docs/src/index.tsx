@@ -11,7 +11,7 @@ import generateMarkdown from './markdown/generateMarkdown';
 
 // components is imported via require so that we can parse the names of exports
 /* eslint-disable-next-line @typescript-eslint/no-var-requires */
-const components = require('govuk-react');
+const components = require('@govuk-react-bjss/govuk-react');
 /* eslint-disable-next-line @typescript-eslint/no-var-requires */
 const docgen = require('react-docgen-typescript');
 

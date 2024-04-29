@@ -3,7 +3,7 @@ Button
 
 ### Import
 ```js
-  import Button from '@govuk-react/button';
+  import Button from '@govuk-react-bjss/button';
 ```
 <!-- STORY -->
 

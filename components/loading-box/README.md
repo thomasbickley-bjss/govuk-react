@@ -3,7 +3,7 @@ LoadingBox
 
 ### Import
 ```js
-  import LoadingBox from '@govuk-react/loading-box';
+  import LoadingBox from '@govuk-react-bjss/loading-box';
 ```
 <!-- STORY -->
 

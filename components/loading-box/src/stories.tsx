@@ -2,13 +2,13 @@ import type { Story } from '@storybook/react';
 
 import * as React from 'react';
 
-import { H1, H2 } from '@govuk-react/heading';
-import InputField from '@govuk-react/input-field';
-import Button from '@govuk-react/button';
-import Link from '@govuk-react/link';
-import Radio from '@govuk-react/radio';
-import PhaseBanner from '@govuk-react/phase-banner';
-import MultiChoice from '@govuk-react/multi-choice';
+import { H1, H2 } from '@govuk-react-bjss/heading';
+import InputField from '@govuk-react-bjss/input-field';
+import Button from '@govuk-react-bjss/button';
+import Link from '@govuk-react-bjss/link';
+import Radio from '@govuk-react-bjss/radio';
+import PhaseBanner from '@govuk-react-bjss/phase-banner';
+import MultiChoice from '@govuk-react-bjss/multi-choice';
 
 import { LoadingBox } from '.';
 

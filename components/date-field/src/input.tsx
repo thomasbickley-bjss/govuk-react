@@ -1,9 +1,9 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import BaseInput, { InputProps as BaseInputProps } from '@govuk-react/input';
-import LabelText from '@govuk-react/label-text';
-import Label from '@govuk-react/label';
+import BaseInput, { InputProps as BaseInputProps } from '@govuk-react-bjss/input';
+import LabelText from '@govuk-react-bjss/label-text';
+import Label from '@govuk-react-bjss/label';
 
 import multiInputInput from 'multi-input-input';
 
@@ -88,7 +88,7 @@ class Input extends React.Component<DateInputProps> {
   }
 }
 
-export interface DateInputProps {
+export interface DateInputProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onFocus' | 'onBlur' | 'onChange'> {
   names?: {
     day?: string;
     month?: string;

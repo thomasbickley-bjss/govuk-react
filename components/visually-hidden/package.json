@@ -1,8 +1,8 @@
 {
-  "name": "@govuk-react/visually-hidden",
+  "name": "@govuk-react-bjss/visually-hidden",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/lib": "^0.10.6",
+    "@govuk-react-bjss/lib": "^0.10.6",
     "govuk-colours": "^1.1.0"
   },
   "peerDependencies": {
@@ -13,8 +13,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-visually-hidden.cjs.js",
-  "module": "dist/govuk-react-visually-hidden.esm.js",
+  "main": "dist/govuk-react-bjss-visually-hidden.cjs.js",
+  "module": "dist/govuk-react-bjss-visually-hidden.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

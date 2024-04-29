@@ -2,10 +2,10 @@
 
 import type { FormProps, FieldTemplateProps, AjvError, ObjectFieldTemplateProps, FieldProps } from '@rjsf/core';
 
-// TODO: extract these reusable parts in to a published module e.g. @govuk-react/json-schema-form
+// TODO: extract these reusable parts in to a published module e.g. @govuk-react-bjss/json-schema-form
 
 import React, { useCallback, useState } from 'react';
-import * as GovUK from 'govuk-react';
+import * as GovUK from '@govuk-react-bjss/govuk-react';
 import BaseForm from '@rjsf/core';
 
 const dobObjToString = ({ year, month, day }: { year?: string; month?: string; day?: string }) =>

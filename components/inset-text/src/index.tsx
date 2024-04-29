@@ -5,8 +5,8 @@
  */
 import styled from 'styled-components';
 
-import { BORDER_WIDTH_WIDE, SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { BORDER_WIDTH_WIDE, SPACING_POINTS } from '@govuk-react-bjss/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 import { BORDER_COLOUR } from 'govuk-colours';
 
 /**

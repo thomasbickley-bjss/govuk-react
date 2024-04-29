@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BLACK, WHITE } from 'govuk-colours';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
-import { typography } from '@govuk-react/lib';
+import { MEDIA_QUERIES } from '@govuk-react-bjss/constants';
+import { typography } from '@govuk-react-bjss/lib';
 import CrownIcon from '@govuk-react/icon-crown';
 
 import styled from 'styled-components';
@@ -52,7 +52,7 @@ const Input = styled('input')({
   },
 });
 
-interface TopNavProps {
+interface TopNavProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Top nav background color */
   bgColor?: string;
   /** Top nav text color */

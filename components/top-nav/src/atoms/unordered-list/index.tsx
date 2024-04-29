@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MEDIA_QUERIES, SPACING } from '@govuk-react/constants';
+import { MEDIA_QUERIES, SPACING } from '@govuk-react-bjss/constants';
 
 const Ul = styled('ul').withConfig<{ serviceTitle?: boolean; open?: boolean }>({
   shouldForwardProp: (prop) => !['serviceTitle', 'open'].includes(String(prop)),

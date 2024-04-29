@@ -45,7 +45,7 @@ npm install govuk-react styled-components @types/styled-components --save
 ```
 
 ```jsx
-import { Button } from 'govuk-react'
+import { Button } from '@govuk-react-bjss/govuk-react'
 
 const MyComponent = ({title}) => (<div>
   <h1>{title}</h1>
@@ -65,7 +65,7 @@ For example;
 
 ```jsx
 import { BrowserRouter, Link as RouterLink } from 'react-router';
-import { Link } from '@govuk-react/link';
+import { Link } from '@govuk-react-bjss/link';
 
 const MyComponent = () => (
   <nav>
@@ -110,11 +110,11 @@ This is particularly relevant in a large application where:
 e.g. for DateField, you import it separately as follows:
 
 ```js
-import { H1, Paragraph } from 'govuk-react';
-import DateField from '@govuk-react/date-field';
+import { H1, Paragraph } from '@govuk-react-bjss/govuk-react';
+import DateField from '@govuk-react-bjss/date-field';
 ```
 
-Then in your package.json, you can update govuk-react, but specify the older version of '@govuk-react/date-field'.
+Then in your package.json, you can update govuk-react, but specify the older version of '@govuk-react-bjss/date-field'.
 
 ## About the GDS font
 

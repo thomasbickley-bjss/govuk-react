@@ -1,9 +1,9 @@
 {
-  "name": "@govuk-react/paragraph",
+  "name": "@govuk-react-bjss/paragraph",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/lib": "^0.10.6",
-    "@govuk-react/link": "^0.10.6",
+    "@govuk-react-bjss/lib": "^0.10.6",
+    "@govuk-react-bjss/link": "^0.10.6",
     "react-markdown": "^5.0.3"
   },
   "peerDependencies": {
@@ -14,8 +14,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-paragraph.cjs.js",
-  "module": "dist/govuk-react-paragraph.esm.js",
+  "main": "dist/govuk-react-bjss-paragraph.cjs.js",
+  "module": "dist/govuk-react-bjss-paragraph.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { CSSTransition } from 'react-transition-group';
 import hexRgb from 'hex-rgb';
-import { Spinner } from '@govuk-react/icons';
+import { Spinner } from '@govuk-react-bjss/icons';
 import { BLACK, WHITE } from 'govuk-colours';
 
 const spinnerClassName = 'icon-loading';
@@ -168,7 +168,7 @@ LoadingBox.defaultProps = {
 
 LoadingBox.displayName = 'LoadingBox';
 
-export interface LoadingBoxProps {
+export interface LoadingBoxProps extends React.HTMLAttributes<HTMLDivElement> {
   /**
    * One or more children nodes that loading box will overlay
    */

@@ -1,10 +1,10 @@
-import type { WithWhiteSpaceProps } from '@govuk-react/lib';
+import type { WithWhiteSpaceProps } from '@govuk-react-bjss/lib';
 
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { spacing, typography } from '@govuk-react/lib';
-import { HEADING_SIZES, SPACING_POINTS } from '@govuk-react/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
+import { HEADING_SIZES, SPACING_POINTS } from '@govuk-react-bjss/constants';
 
 const StyledLegend = styled('legend')<LegendProps>(
   spacing.withWhiteSpace(),
@@ -57,7 +57,7 @@ const Legend: React.FC<LegendProps> = ({ children, isPageHeading = undefined, ..
   <StyledLegend {...props}>{isPageHeading ? <StyledHeading>{children}</StyledHeading> : children}</StyledLegend>
 );
 
-interface LegendProps extends WithWhiteSpaceProps {
+interface LegendProps extends React.HTMLAttributes<HTMLLegendElement>, WithWhiteSpaceProps {
   children: React.ReactNode;
   isPageHeading?: boolean;
   size?: string | number;

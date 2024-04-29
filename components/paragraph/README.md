@@ -3,7 +3,7 @@ Paragraph
 
 ### Import
 ```js
-  import Paragraph from '@govuk-react/paragraph';
+  import Paragraph from '@govuk-react-bjss/paragraph';
 ```
 <!-- STORY -->
 

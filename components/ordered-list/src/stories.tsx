@@ -2,7 +2,7 @@ import type { Story } from '@storybook/react';
 
 import * as React from 'react';
 
-import ListItem from '@govuk-react/list-item';
+import ListItem from '@govuk-react-bjss/list-item';
 
 import { OrderedList } from '.';
 

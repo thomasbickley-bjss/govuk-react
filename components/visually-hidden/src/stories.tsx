@@ -2,8 +2,8 @@ import type { Story } from '@storybook/react';
 
 import React, { Component } from 'react';
 
-import Paragraph from '@govuk-react/paragraph';
-import Button from '@govuk-react/button';
+import Paragraph from '@govuk-react-bjss/paragraph';
+import Button from '@govuk-react-bjss/button';
 
 import { VisuallyHidden } from '.';
 

@@ -3,7 +3,7 @@ GridCol
 
 ### Import
 ```js
-  import GridCol from '@govuk-react/grid-col';
+  import GridCol from '@govuk-react-bjss/grid-col';
 ```
 <!-- STORY -->
 

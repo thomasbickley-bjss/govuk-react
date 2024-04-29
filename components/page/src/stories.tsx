@@ -3,9 +3,9 @@ import type { Story } from '@storybook/react';
 import * as React from 'react';
 import styled from 'styled-components';
 
-import BackLink from '@govuk-react/back-link';
-import { H1, H3 } from '@govuk-react/heading';
-import { MEDIA_QUERIES, GUTTER } from '@govuk-react/constants';
+import BackLink from '@govuk-react-bjss/back-link';
+import { H1, H3 } from '@govuk-react-bjss/heading';
+import { MEDIA_QUERIES, GUTTER } from '@govuk-react-bjss/constants';
 
 import { Page } from '.';
 

@@ -3,7 +3,7 @@ DateField
 
 ### Import
 ```js
-  import DateField from '@govuk-react/date-field';
+  import DateField from '@govuk-react-bjss/date-field';
 ```
 <!-- STORY -->
 

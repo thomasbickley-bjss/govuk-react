@@ -6,8 +6,8 @@
  */
 import * as React from 'react';
 import styled from 'styled-components';
-import { MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react-bjss/constants';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 import Anchor from './anchor';
 
 const StyledList = styled('ul')(
@@ -39,7 +39,7 @@ export const Pagination: PaginationType = (props: PaginationProps) => <StyledLis
 export interface PaginationType extends React.FC<PaginationProps> {
   Anchor: typeof Anchor;
 }
-export interface PaginationProps {
+export interface PaginationProps extends React.HTMLAttributes<HTMLUListElement> {
   children: React.ReactNode;
 }
 

@@ -3,7 +3,7 @@ UnorderedList
 
 ### Import
 ```js
-  import UnorderedList from '@govuk-react/unordered-list';
+  import UnorderedList from '@govuk-react-bjss/unordered-list';
 ```
 <!-- STORY -->
 

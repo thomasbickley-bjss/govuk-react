@@ -3,9 +3,9 @@ import type { StyledComponentProps } from 'styled-components';
 import * as React from 'react';
 import styled from 'styled-components';
 import { BLUE, GREY_4, PURPLE, YELLOW, WHITE } from 'govuk-colours';
-import { FONT_SIZE, LINE_HEIGHT, SPACING, MEDIA_QUERIES, NTA_LIGHT } from '@govuk-react/constants';
+import { FONT_SIZE, LINE_HEIGHT, SPACING, MEDIA_QUERIES, NTA_LIGHT } from '@govuk-react-bjss/constants';
 
-import { ArrowRight as NextPageIcon, ArrowLeft as PrevPageIcon } from '@govuk-react/icons';
+import { ArrowRight as NextPageIcon, ArrowLeft as PrevPageIcon } from '@govuk-react-bjss/icons';
 
 const PaginationWrapper = styled('li')<{ previousPage?: boolean; nextPage?: boolean }>(
   {
@@ -135,7 +135,7 @@ type PaginationAnchorPropsWithAs<
   forwardedAs?: FAsC | undefined;
 };
 
-interface PaginationAnchorProps {
+interface PaginationAnchorProps extends React.HTMLAttributes<HTMLAnchorElement> {
   children: string | React.ReactElement;
   previousPage?: boolean;
   nextPage?: boolean;

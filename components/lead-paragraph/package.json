@@ -1,8 +1,8 @@
 {
-  "name": "@govuk-react/lead-paragraph",
+  "name": "@govuk-react-bjss/lead-paragraph",
   "version": "0.10.6",
   "dependencies": {
-    "@govuk-react/lib": "^0.10.6"
+    "@govuk-react-bjss/lib": "^0.10.6"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -12,8 +12,8 @@
     "docs": "doc-component ./src/index.tsx ./README.md",
     "version": "yarn version"
   },
-  "main": "dist/govuk-react-lead-paragraph.cjs.js",
-  "module": "dist/govuk-react-lead-paragraph.esm.js",
+  "main": "dist/govuk-react-bjss-lead-paragraph.cjs.js",
+  "module": "dist/govuk-react-bjss-lead-paragraph.esm.js",
   "source": "src/index.tsx",
   "author": "Alasdair McLeay",
   "license": "MIT",

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { link } from '@govuk-react/lib';
+import { link } from '@govuk-react-bjss/lib';
 
 const Link = styled('a')(...link.common(), link.styleText);
 

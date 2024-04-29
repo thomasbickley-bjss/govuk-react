@@ -6,7 +6,7 @@
  */
 import * as React from 'react';
 import styled from 'styled-components';
-import { spacing, typography } from '@govuk-react/lib';
+import { spacing, typography } from '@govuk-react-bjss/lib';
 import { FOOTER_BACKGROUND, FOOTER_TEXT, FOOTER_BORDER_TOP } from 'govuk-colours';
 
 import type { CopyrightProps } from './atoms/copyright';
@@ -79,7 +79,7 @@ export interface FooterType extends React.FC<FooterProps> {
   Licence: typeof Licence;
 }
 
-interface FooterProps {
+interface FooterProps extends React.HTMLAttributes<HTMLElement> {
   /**
    * Footer navigation links
    */

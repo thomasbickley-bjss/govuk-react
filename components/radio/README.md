@@ -3,7 +3,7 @@ Radio
 
 ### Import
 ```js
-  import Radio from '@govuk-react/radio';
+  import Radio from '@govuk-react-bjss/radio';
 ```
 <!-- STORY -->
 
